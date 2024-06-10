@@ -631,12 +631,6 @@ update.mod['7.6.0'] = function(data) {
 
   data.state.theme.background.image.refresh = 0;
 
-  return data;
-
-};
-
-update.mod['7.6.0'] = function(data) {
-
   if (data.state.bookmark.style === 'block') {
 
     data.state.bookmark.style = {
@@ -652,12 +646,12 @@ update.mod['7.6.0'] = function(data) {
       width: 20,
       height: 4
     };
-
   }
 
   return data;
 
 };
+
 
 update.run = (data) => {
 

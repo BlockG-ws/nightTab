@@ -767,6 +767,14 @@
     "message": "光影开始",
     "description": "Range for video vignette right."
   },
+  "menuContentThemeBackgroundImageRefresh": {
+    "message": "刷新",
+    "description": "Range background image refresh."
+  },
+  "menuContentThemeBackgroundImageRefreshHelperPara1": {
+    "message": "背景刷新频率",
+    "description": "Helper text for background image refresh."
+  },
   "menuContentThemeLayoutColorLabel": {
     "message": "布局背景颜色",
     "description": "Label for layout area colour."

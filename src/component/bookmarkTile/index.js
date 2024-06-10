@@ -549,6 +549,9 @@ const BookmarkTile = function({
       this.control.disable();
     }
 
+    this.element.content.link.addEventListener('mouseup', () => {
+      this.element.content.link.blur();
+    });
   };
 
   this.tile = () => {

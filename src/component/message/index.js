@@ -137,7 +137,7 @@ message.get = (stringId) => {
 
   }
 
-  if (string.indexOf('{appName}') > -1) {
+  if (string && string.indexOf('{appName}') > -1) {
 
     string = string.replaceAll('{appName}', APP_NAME);
 

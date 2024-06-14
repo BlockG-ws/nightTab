@@ -12,7 +12,7 @@ import * as form from '../form';
 import { Button } from '../button';
 import { Dropdown } from '../dropdown';
 
-import { Control_inputButton } from '../control/inputButton';
+import { Control_inputButton } from '../control';
 
 import { node } from '../../utility/node';
 import { applyCSSVar } from '../../utility/applyCSSVar';
